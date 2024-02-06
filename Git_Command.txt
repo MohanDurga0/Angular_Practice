@@ -1,0 +1,7 @@
+goto Terminal and goto respective folder
+
+c1: git init
+c2: git add . (.-> means add all folders)
+c3:git commit -m "message"
+c4:git remote add origin link
+c5:git push -u origin main
