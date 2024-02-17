@@ -1,0 +1,24 @@
+<h1>Main</h1>
+<div>
+  <div *ngFor="let item of arr; let k = index; let e = even; let o = odd">
+    {{item}} {{k}} {{e}} {{o}}
+</div>
+
+
+<div id="moana">
+  <div *ngFor="let item of arr2">
+    <img [src]="item.pic">
+    <p>{{item.name}} ({{item.age}}) </p>
+  </div>
+</div>
+
+
+<div id="minions">
+  <div *ngFor="let item of arr4" id="minion">
+    <img src={{item.image}} alt=""/><br/>
+    {{item.id}}<br/>
+    {{item.title}} <br/>
+    {{item.price}} <br/>
+    {{item.description}} <br/>
+</div>
+</div>

@@ -4,10 +4,6 @@
         width: 200px;
         border: 2px solid red;
         margin: 20px;
-        display: inline-block;
-    }
-    app-header
-    {
-        align-items: gr;
+        display:inline-table;
     }
 

@@ -1,0 +1,14 @@
+<app-header (mohan)="i($event)" #hello></app-header>
+<div >
+   <p>{{c}}</p> 
+   <p>{{hello.count}}</p>
+   <p>{{hello.name}}</p>
+</div>
+
+<div>
+    <button (click)="incre()">+</button>
+    <button (click)="decre()">-</button>
+    <button (click)="reset()">Reset</button>
+</div>
+{{v}}
+<button (click)="fun()">click me</button>

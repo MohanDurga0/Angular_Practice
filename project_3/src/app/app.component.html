@@ -1,0 +1,6 @@
+<div id="main">
+  <button (click)="login()">Login</button>
+  <div *ngIf ="isLogin" id="switchbox">
+    <input type="text"  [(ngModel)] = "day"><button (click)="click()">😊</button>
+  </div>
+</div>

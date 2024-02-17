@@ -1,0 +1,14 @@
+<app-header [prop]="color"></app-header>
+<div>
+  <input type="color" (change)="onColorChange($event)"/>
+
+  <button (click)="Red()">Red</button>
+  <button (click)="Green()">Green</button>
+  <button (click)="Blue()">Blue</button>
+
+  <button (click)="fun($event)">Yello</button>
+  <button (click)="fun($event)">purple</button>
+  <button (click)="fun($event)">Pink</button>
+</div>
+
+<app-footer></app-footer>
